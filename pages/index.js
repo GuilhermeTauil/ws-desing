@@ -32,7 +32,7 @@ export default function Home() {
             src="/banner2.jpeg"
             layout="responsive"
             width={700}
-            height={650}
+            height={500}
           />
         </div>
         <div className={styles.hero_text}>
