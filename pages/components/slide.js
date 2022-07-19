@@ -1,38 +1,127 @@
 import Carousel from "react-bootstrap/Carousel";
-import styles from "../../styles/Home.module.css";
+import styles from "../../styles/Slide.module.css";
 
-function IndividualIntervalsExample() {
+function Slide() {
   return (
-    <div className={styles.carroselmid}>
-      <Carousel>
-        <Carousel.Item interval={500}>
-          <img
-            className="img-thumbnail"
-            alt="Second slide"
-            src="https://i.postimg.cc/prY3kNKt/Drywall-Taping-Tips.jpg"
-          />
-          <Carousel.Caption></Carousel.Caption>
-        </Carousel.Item>
-        <Carousel.Item>
-          <img
-            className="img-thumbnail"
-            alt="Third slide"
-            src="https://i.postimg.cc/Znh1rYBc/How-To-Mud-Drywall.jpg"
-          />
+    <div className={styles.row}>
+      <div className={styles.column}>
+        <Carousel variant="dark">
+          <Carousel.Item interval={500}>
+            <img
+              className="d-block w-100"
+              alt="Second slide"
+              src="https://i.postimg.cc/Znh1rYBc/How-To-Mud-Drywall.jpg"
+            />
+            <Carousel.Caption></Carousel.Caption>
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="d-block w-100"
+              alt="Third slide"
+              src="https://i.postimg.cc/Znh1rYBc/How-To-Mud-Drywall.jpg"
+            />
 
-          <Carousel.Caption></Carousel.Caption>
-        </Carousel.Item>
-        <Carousel.Item interval={500}>
-          <img
-            className="img-thumbnail"
-            alt="Second slide"
-            src="https://i.postimg.cc/rsnNqQkr/Drywall-Taping-Tips.jpg"
-          />
-          <Carousel.Caption></Carousel.Caption>
-        </Carousel.Item>
-      </Carousel>
+            <Carousel.Caption></Carousel.Caption>
+          </Carousel.Item>
+          <Carousel.Item interval={500}>
+            <img
+              className="d-block w-100"
+              alt="Second slide"
+              src="https://i.postimg.cc/Znh1rYBc/How-To-Mud-Drywall.jpg"
+            />
+            <Carousel.Caption></Carousel.Caption>
+          </Carousel.Item>
+        </Carousel>
+      </div>
+      <div className={styles.column}>
+        <Carousel variant="dark">
+          <Carousel.Item interval={500}>
+            <img
+              className="d-block w-100"
+              alt="Second slide"
+              src="https://i.postimg.cc/Znh1rYBc/How-To-Mud-Drywall.jpg"
+            />
+            <Carousel.Caption></Carousel.Caption>
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="d-block w-100"
+              alt="Third slide"
+              src="https://i.postimg.cc/Znh1rYBc/How-To-Mud-Drywall.jpg"
+            />
+
+            <Carousel.Caption></Carousel.Caption>
+          </Carousel.Item>
+          <Carousel.Item interval={500}>
+            <img
+              className="d-block w-100"
+              alt="Second slide"
+              src="https://i.postimg.cc/Znh1rYBc/How-To-Mud-Drywall.jpg"
+            />
+            <Carousel.Caption></Carousel.Caption>
+          </Carousel.Item>
+        </Carousel>
+      </div>
+      <div className={styles.column}>
+        <Carousel variant="dark">
+          <Carousel.Item interval={500}>
+            <img
+              className="d-block w-100"
+              alt="Second slide"
+              src="https://i.postimg.cc/Znh1rYBc/How-To-Mud-Drywall.jpg"
+            />
+            <Carousel.Caption></Carousel.Caption>
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="d-block w-100"
+              alt="Third slide"
+              src="https://i.postimg.cc/Znh1rYBc/How-To-Mud-Drywall.jpg"
+            />
+
+            <Carousel.Caption></Carousel.Caption>
+          </Carousel.Item>
+          <Carousel.Item interval={500}>
+            <img
+              className="d-block w-100"
+              alt="Second slide"
+              src="https://i.postimg.cc/Znh1rYBc/How-To-Mud-Drywall.jpg"
+            />
+            <Carousel.Caption></Carousel.Caption>
+          </Carousel.Item>
+        </Carousel>
+      </div>
+      <div className={styles.column}>
+        <Carousel variant="dark">
+          <Carousel.Item interval={500}>
+            <img
+              className="d-block w-100"
+              alt="Second slide"
+              src="https://i.postimg.cc/Znh1rYBc/How-To-Mud-Drywall.jpg"
+            />
+            <Carousel.Caption></Carousel.Caption>
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="d-block w-100"
+              alt="Third slide"
+              src="https://i.postimg.cc/Znh1rYBc/How-To-Mud-Drywall.jpg"
+            />
+
+            <Carousel.Caption></Carousel.Caption>
+          </Carousel.Item>
+          <Carousel.Item interval={500}>
+            <img
+              className="d-block w-100"
+              alt="Second slide"
+              src="https://i.postimg.cc/Znh1rYBc/How-To-Mud-Drywall.jpg"
+            />
+            <Carousel.Caption></Carousel.Caption>
+          </Carousel.Item>
+        </Carousel>
+      </div>
     </div>
   );
 }
 
-export default IndividualIntervalsExample;
+export default Slide;
