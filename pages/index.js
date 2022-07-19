@@ -28,7 +28,7 @@ export default function Home() {
             src="/banner2.jpeg"
             layout="responsive"
             width={700}
-            height={475}
+            height={650}
           />
         </div>
         <div className={styles.hero_text}>
@@ -37,11 +37,11 @@ export default function Home() {
             Empresa especializada: Rebaixamento em dryawll, Fabricação e
             instalação de placas de gesso 3d, Elétrica e iluminação em geral
           </p>
-          <Link href="#section1">
+          <Link href="https://l.instagram.com/?u=https%3A%2F%2Fwa.me%2Fmessage%2FFQE6ED7A2JBHM1&e=ATPm5cybSR8j9CihWRjJoF4W17VzeK1mRh7jQKUyPZ_MxNbWd9Oj-a8euijCEKBkIHN8fAaencyHWwObZLz2-Q&s=1">
             <a>Orçamento via Whatsapp</a>
           </Link>
         </div>
-        <div className={styles.sobre} id="sobre">
+        <div className={styles.sobre} id="Sobre">
           <div className={styles.sobre_column}>
             <div className={styles.sobre_column_min}>
               <p>Somos WS desing empresa especializada</p>
@@ -59,10 +59,34 @@ export default function Home() {
             </div>
           </div>
           <div className={styles.sobre_column}>
-            <Image src="/ws.png" layout="responsive" width={700} height={475} />
+            <div className={styles.SociaisA}>
+              <div className={styles.Soci}>
+                <li>
+                  <Link href="https://www.instagram.com/ws_design_de_interiores/">
+                    <a>
+                      <img src="/instagram_ready.png"></img>Instagram
+                    </a>
+                  </Link>
+                </li>
+                <li>
+                  <Link href="https://www.instagram.com/ws_design_de_interiores/">
+                    <a>
+                      <img src="/facebook_logo.png"></img>Facebook
+                    </a>
+                  </Link>
+                </li>
+                <li>
+                  <Link href="https://l.instagram.com/?u=https%3A%2F%2Fwa.me%2Fmessage%2FFQE6ED7A2JBHM1&e=ATPRvIHWvq5loUY0TPDGgEQyNnoPnM3lBN9ZPLX-Yv2kepO0oVqlH0Va5by-vUCZFAzqWJoJvcX2j5xti87TOQ&s=1">
+                    <a>
+                      <img src="/whattsapp_logo.png"></img>Whatsapp
+                    </a>
+                  </Link>
+                </li>
+              </div>
+            </div>
           </div>
         </div>
-        <div id="galeria">
+        <div id="Galeria">
           <Slide />
         </div>
         <footer className={styles.footer}>

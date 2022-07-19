@@ -1,34 +1,27 @@
 import styles from "../../styles/navbar.module.css";
-import Link from "next/link";
-
+import Container from "react-bootstrap/Container";
+import Nav from "react-bootstrap/Nav";
+import Navbar from "react-bootstrap/Navbar";
 function nav() {
   return (
-    <div className={styles.MainNav}>
-      <div className={styles.navbar}>
-        <ul>
-          <li>
-            <Link href="#incio">
-              <img src="/ws_nobk.png" className={styles.GitImg} />
-            </Link>
-          </li>
-          <li>
-            <Link href="#incio">
-              <a>Inicio</a>
-            </Link>
-          </li>
-          <li>
-            <Link href="#sobre">
-              <a>Sobre</a>
-            </Link>
-          </li>
-          <li>
-            <Link href="#galeria">
-              <a>Galeria</a>
-            </Link>
-          </li>
-        </ul>
-      </div>
-    </div>
+    <Navbar className={styles.Nav} fixed="top" variant="lg" bg="light">
+      <Container>
+        <Navbar.Brand href="#home">
+          <img
+            src="/ws.png"
+            width="30"
+            height="30"
+            className="d-inline-block align-top"
+            alt="React Bootstrap logo"
+          />
+        </Navbar.Brand>
+        <Nav>
+          <Nav.Link href="#inicio">Inicio</Nav.Link>
+          <Nav.Link href="#Sobre">Sobre</Nav.Link>
+          <Nav.Link href="#Galeria">Projetos</Nav.Link>
+        </Nav>
+      </Container>
+    </Navbar>
   );
 }
 

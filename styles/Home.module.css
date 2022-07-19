@@ -5,7 +5,7 @@
 }
 .hero_text {
   font-family: "Lato", sans-serif;
-  margin: 3% 10% 10% 5%;
+  margin: 6% 10% 10% 5%;
   font-size: 20px;
   padding: 10%;
   padding-right: 5%;
@@ -39,13 +39,8 @@
 .sobre_column {
   flex: 50%;
   float: left;
-
-  background-image: linear-gradient(
-    to bottom right,
-    rgb(160, 57, 57),
-    rgb(53, 31, 6)
-  );
-  color: aliceblue;
+  background-color: black;
+  color: rgb(255, 248, 248);
 }
 .sobre_column p {
   margin: 10px;
@@ -75,13 +70,41 @@
   padding: 5%;
 }
 
+.SociaisA {
+  border-radius: 10px;
+  padding: 5%;
+  text-align: center;
+  background-color: rgb(172, 56, 56);
+}
+
+.SociaisA a:hover {
+  color: grey;
+  cursor: pointer;
+}
+.SociaisA li {
+  padding: 1%;
+  list-style-type: none;
+  background-color: black;
+}
+
+.SociaisA img {
+  width: 20px;
+  margin: 0px 8px 0px 0px;
+}
+.Soci {
+  background-color: rgb(0, 0, 0);
+  padding: 3%;
+  border-radius: 10px;
+}
+
 @media screen and (max-width: 600px) {
   .hero_text {
     top: 20%;
     font-size: 8px;
   }
   .hero_text a {
-    font-size: 5px;
+    padding: 2%;
+    font-size: 10px;
   }
   .sobre {
     display: grid;
